@@ -6,9 +6,9 @@ import maldives from "../../assets/DestinationImages/maldives.jpg";
 export const RecentSearches = () => {
   return (
     <>
-      <div className="max-w-308 mx-auto flex flex-col gap-8 my-20 px-5 xl:px-0">
+      <div className="xl:max-w-308 max-w-11/12 mx-auto flex flex-col gap-8 my-20 ">
         <div>
-          <h1 className="font-bold text-[32px] text-black">
+          <h1 className="font-bold md:text-[32px] text-2xl text-black">
             Your recent searches
           </h1>
         </div>

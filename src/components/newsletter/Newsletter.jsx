@@ -3,10 +3,10 @@ import mailbox from "../../assets/mailbox.svg";
 export const Newsletter = () => {
   return (
     <>
-      <div className="max-w-308 mx-auto flex justify-between bg-[#CDEAE1] px-6 rounded-[20px]">
+      <div className="xl:max-w-308 max-w-11/12 mx-auto flex justify-between bg-[#CDEAE1] px-6 py-6 lg:py-0 rounded-[20px] ">
         <div className="flex flex-col gap-4 justify-center">
           <div className="max-w-91">
-            <h1 className="text-[#112211] text-[44px] font-bold leading-13.5">
+            <h1 className="text-[#112211] md:text-[44px] text-3xl font-bold leading-13.5">
               Subscribe Newsletter
             </h1>
           </div>
@@ -18,12 +18,12 @@ export const Newsletter = () => {
               Get inspired! Receive travel discounts, tips and behind the scenes
               stories.
             </p>
-            <div className="flex gap-4">
+            <div className="flex flex-col sm:flex-row gap-4">
               <input
                 type="email"
                 placeholder="Your email address"
                 autoComplete="off"
-                className="min-w-118.25 rounded-sm bg-white p-4 text-base placeholder-[#1C1B1F]"
+                className="max-w-full w-full rounded-sm bg-white p-4 text-base placeholder-[#1C1B1F]"
               ></input>
               <button className="bg-[#112211] py-4 px-5 rounded-sm font-semibold text-sm text-white">
                 Subscribe
@@ -31,7 +31,7 @@ export const Newsletter = () => {
             </div>
           </div>
         </div>
-        <div className="">
+        <div className="hidden lg:flex">
           <img src={mailbox} className="h-76.25 w-100"></img>
         </div>
       </div>
