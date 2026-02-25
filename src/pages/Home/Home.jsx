@@ -4,6 +4,7 @@ import { FindDestinationSearch } from "./FindDestinationSearch";
 import { RecentSearches } from "./RecentSearches";
 import { TravelDestinations } from "./TravelDestinations";
 import { TravelDemo } from "./TravelDemo";
+import { Newsletter } from "../../components/newsletter/Newsletter";
 
 export const Home = () => {
   return (
@@ -16,6 +17,7 @@ export const Home = () => {
       <RecentSearches />
       <TravelDestinations />
       <TravelDemo />
+      <Newsletter />
     </div>
   );
 };
