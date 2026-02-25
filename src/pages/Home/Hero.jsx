@@ -9,7 +9,7 @@ export const Hero = () => {
           <picture>
             <source srcSet={HeroBgwebp} type="image/webp"></source>
             <img
-              className="object-cover md:h-134.25 sm:h-100 h-90 w-full"
+              className="object-cover md:h-156 sm:h-100 h-90 w-full"
               src={HeroBgjpg}
               alt="Traveling Commodities"
             ></img>
