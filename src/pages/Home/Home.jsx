@@ -3,6 +3,7 @@ import { Hero } from "./Hero";
 import { FindDestinationSearch } from "./FindDestinationSearch";
 import { RecentSearches } from "./RecentSearches";
 import { TravelDestinations } from "./TravelDestinations";
+import { TravelDemo } from "./TravelDemo";
 
 export const Home = () => {
   return (
@@ -14,6 +15,7 @@ export const Home = () => {
       </div>
       <RecentSearches />
       <TravelDestinations />
+      <TravelDemo />
     </div>
   );
 };
