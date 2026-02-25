@@ -2,6 +2,7 @@ import { Header } from "../../components/header/Header";
 import { Hero } from "./Hero";
 import { FindDestinationSearch } from "./FindDestinationSearch";
 import { RecentSearches } from "./RecentSearches";
+import { TravelDestinations } from "./TravelDestinations";
 
 export const Home = () => {
   return (
@@ -12,6 +13,7 @@ export const Home = () => {
         <FindDestinationSearch />
       </div>
       <RecentSearches />
+      <TravelDestinations />
     </div>
   );
 };

@@ -14,7 +14,7 @@ export const FindDestinationSearch = () => {
             Where are you flying?
           </h1>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[1.7fr_1fr_1fr_1fr] gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[1.73fr_1fr_1fr_1fr] gap-4">
           <div className=" relative border border-[#79747E] rounded-sm p-2 flex items-center">
             <label className="absolute -top-3 left-3 px-1 bg-white text-[14px] font-medium text-[#1C1B1F]">
               Enter Destination

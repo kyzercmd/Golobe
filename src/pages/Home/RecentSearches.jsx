@@ -1,7 +1,7 @@
-import turkey from "../../assets/turkey.jpg";
-import australia from "../../assets/australia.jpg";
-import azerbaijan from "../../assets/azerbaijan.jpg";
-import maldives from "../../assets/maldives.jpg";
+import turkey from "../../assets/DestinationImages/turkey.jpg";
+import australia from "../../assets/DestinationImages/australia.jpg";
+import azerbaijan from "../../assets/DestinationImages/azerbaijan.jpg";
+import maldives from "../../assets/DestinationImages/maldives.jpg";
 
 export const RecentSearches = () => {
   return (

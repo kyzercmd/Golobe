@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Melbourne",
+    "description": "An amazing journey",
+    "price": 700,
+    "image": "/images/melbourne.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Paris",
+    "description": "A Paris Adventure",
+    "price": 600,
+    "image": "/images/paris.jpg"
+  },
+  {
+    "id": 3,
+    "name": "London",
+    "description": "London eye adventure",
+    "price": 350,
+    "image": "/images/london.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Columbia",
+    "description": "Amazing streets",
+    "price": 700,
+    "image": "/images/columbia.jpg"
+  }
+]
