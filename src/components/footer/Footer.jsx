@@ -3,7 +3,7 @@ import socials from "../../assets/socials.svg";
 export const Footer = () => {
   return (
     <>
-      <div className="max-w-360 mx-auto bg-[#8DD3BB]">
+      <div className="max-w-full mx-auto bg-[#8DD3BB]">
         <div className="xl:max-w-308 max-w-11/12 md:grid-cols-3 grid-cols-2 grid xl:grid-cols-6 gap-6 mx-auto pt-54.5 pb-16">
           <div className="">
             <img src={socials}></img>

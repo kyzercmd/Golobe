@@ -8,7 +8,7 @@ import Building from "../../assets/building.svg";
 export const FindDestinationSearch = () => {
   return (
     <>
-      <div className="lg:max-w-308 max-w-11/12 mx-auto flex flex-col gap-6 py-8 px-6 rounded-2xl shadow-[0px_4px_16px_0px_rgba(17,34,17,0.05)] bg-white">
+      <div className="xl:max-w-308 max-w-11/12 mx-auto flex flex-col gap-6 py-8 px-6 rounded-2xl shadow-[0px_4px_16px_0px_rgba(17,34,17,0.05)] bg-white">
         <div>
           <h1 className="font-semibold sm:text-[20px] text-lg text-[#112211]">
             Where are you flying?

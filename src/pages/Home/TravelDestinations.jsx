@@ -12,7 +12,7 @@ export const TravelDestinations = () => {
 
   return (
     <>
-      <div className="lg:max-w-308 max-w-11/12 mx-auto flex flex-col gap-6 ">
+      <div className="xl:max-w-308 max-w-11/12 mx-auto flex flex-col gap-6 ">
         <div className="flex justify-between items-center gap-4">
           <div className="max-w-215 flex flex-col md:gap-4 gap-1">
             <h1 className="md:text-[32px] text-2xl font-bold text-black">

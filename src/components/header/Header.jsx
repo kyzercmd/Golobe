@@ -7,8 +7,8 @@ import Profile from "../../assets/Ellipse.png";
 export const Header = () => {
   return (
     <>
-      <div className="max-w-360 mx-auto shadow-[0px_4px_16px_0px_rgba(17,34,17,0.05)]">
-        <div className="lg:px-26 px-3 flex mx-auto justify-between h-19.25 border-t-[5px] border-transparent ">
+      <div className="max-w-full mx-auto shadow-[0px_4px_16px_0px_rgba(17,34,17,0.05)]">
+        <div className="lg:px-26 px-3 max-w-360 flex mx-auto justify-between h-19.25 border-t-[5px] border-transparent ">
           <div className="flex gap-8">
             <div className="flex gap-1 items-center border-b-[5px] border-transparent">
               <img className="w-6 h-6 sm:flex" src={Airplane}></img>

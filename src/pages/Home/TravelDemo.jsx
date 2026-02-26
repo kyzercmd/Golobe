@@ -6,7 +6,7 @@ import demo4 from "../../assets/DestinationImages/demo4.jpg";
 export const TravelDemo = () => {
   return (
     <>
-      <div className="xl:max-w-308 max-w-11/12 mx-auto gap-6 flex flex-col my-20">
+      <div className="xl:max-w-308 max-w-11/12 mx-auto gap-6 flex flex-col mt-20 mb-30">
         {/* Headline texts and button */}
         <div className="flex justify-between items-center gap-4 ">
           <div className="max-w-282 flex flex-col md:gap-4 gap-1">
