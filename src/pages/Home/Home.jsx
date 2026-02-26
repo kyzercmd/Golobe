@@ -5,6 +5,7 @@ import { RecentSearches } from "./RecentSearches";
 import { TravelDestinations } from "./TravelDestinations";
 import { TravelDemo } from "./TravelDemo";
 import { Newsletter } from "../../components/newsletter/Newsletter";
+import { Footer } from "../../components/footer/Footer";
 
 export const Home = () => {
   return (
@@ -17,7 +18,11 @@ export const Home = () => {
       <RecentSearches />
       <TravelDestinations />
       <TravelDemo />
-      <Newsletter />
+      <div className="z-50 relative -mb-37.75">
+        <Newsletter />
+      </div>
+
+      <Footer />
     </div>
   );
 };

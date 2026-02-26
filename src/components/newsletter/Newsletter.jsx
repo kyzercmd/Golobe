@@ -3,7 +3,7 @@ import mailbox from "../../assets/mailbox.svg";
 export const Newsletter = () => {
   return (
     <>
-      <div className="xl:max-w-308 max-w-11/12 mx-auto flex justify-between bg-[#CDEAE1] px-6 py-6 lg:py-0 rounded-[20px] ">
+      <div className="xl:max-w-308 max-w-11/12 mx-auto flex justify-between bg-[#CDEAE1] px-6 py-6 lg:py-0 rounded-[20px] shadow-[0px_4px_16px_0px_rgba(17,34,17,0.05)]">
         <div className="flex flex-col gap-4 justify-center">
           <div className="max-w-91">
             <h1 className="text-[#112211] md:text-[44px] text-3xl font-bold leading-13.5">
