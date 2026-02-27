@@ -28,7 +28,7 @@ export const Login = () => {
                   </label>
                   <input
                     type="email"
-                    autocomplete="off"
+                    autoComplete="off"
                     placeholder="john.doe@gmail.com"
                     className="text-[#1C1B1F] placeholder-[#1C1B1F] py-2 pl-3 w-full focus:outline-0"
                   ></input>
@@ -39,8 +39,7 @@ export const Login = () => {
                   </label>
 
                   <input
-                    type="email"
-                    autocomplete="off"
+                    type="password"
                     placeholder="•••••••••••••••••••••••••"
                     className="text-[#1C1B1F] placeholder-[#1C1B1F] py-2 pl-3 w-full focus:outline-0"
                   ></input>
@@ -62,7 +61,7 @@ export const Login = () => {
                 </div>
               </div>
               <div className="flex flex-col gap-4">
-                <button className="bg-[#8DD3BB] rouned-sm font-semibold text-sm text-[#112211} p-3">
+                <button className="bg-[#8DD3BB] rounded-sm font-semibold text-sm text-[#112211} p-3">
                   Login
                 </button>
                 <p className="text-center text-[#112211] font-medium text-sm">

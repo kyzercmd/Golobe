@@ -30,7 +30,8 @@ export const Signup = () => {
             <div className="flex flex-col gap-4">
               <h1 className="text-[40px] font-bold text-black">Sign up</h1>
               <p className="text-base text-[#112211]/75 ">
-                Let’s get you all st up so you can access your personal account.
+                Let’s get you all started up so you can access your personal
+                account.
               </p>
             </div>
             <div className="flex flex-col gap-10 mt-12">
@@ -41,8 +42,7 @@ export const Signup = () => {
                       First Name
                     </label>
                     <input
-                      type="email"
-                      autoComplete="off"
+                      type="text"
                       placeholder="john.doe@gmail.com"
                       className="text-[#1C1B1F] placeholder-[#1C1B1F] py-2 pl-3 w-full focus:outline-0"
                     ></input>
@@ -52,8 +52,7 @@ export const Signup = () => {
                       Last Name
                     </label>
                     <input
-                      type="email"
-                      autoComplete="off"
+                      type="text"
                       placeholder="john.doe@gmail.com"
                       className="text-[#1C1B1F] placeholder-[#1C1B1F] py-2 pl-3 w-full focus:outline-0"
                     ></input>
@@ -76,8 +75,7 @@ export const Signup = () => {
                       Phone Number
                     </label>
                     <input
-                      type="email"
-                      autoComplete="off"
+                      type="text"
                       placeholder="john.doe@gmail.com"
                       className="text-[#1C1B1F] placeholder-[#1C1B1F] py-2 pl-3 w-full focus:outline-0"
                     ></input>
@@ -128,7 +126,7 @@ export const Signup = () => {
                 </div>
               </div>
               <div className="flex flex-col gap-4">
-                <button className="bg-[#8DD3BB] rouned-sm font-semibold text-sm text-[#112211} p-3">
+                <button className="bg-[#8DD3BB] rounded-sm font-semibold text-sm text-[#112211} p-3">
                   Create Account
                 </button>
                 <p className="text-center text-[#112211] font-medium text-sm">
