@@ -24,7 +24,11 @@ export const Header = () => {
             </div>
           </div>
           <div className="items-center flex justify-center">
-            <img className="md:w-27.5 md:h-9 w-20" src={Logo}></img>
+            <img
+              className="md:w-27.5 md:h-9 w-20"
+              src={Logo}
+              alt="Golobe Travel Agency"
+            ></img>
           </div>
           <div className="flex sm:gap-4 gap-1 items-center">
             <div className="flex gap-1">

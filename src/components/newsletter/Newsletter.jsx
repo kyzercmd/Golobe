@@ -23,7 +23,7 @@ export const Newsletter = () => {
                 type="email"
                 placeholder="Your email address"
                 autoComplete="off"
-                className="max-w-full w-full rounded-sm bg-white p-4 text-base placeholder-[#1C1B1F]"
+                className="max-w-full w-full rounded-sm bg-white p-4 text-base placeholder-[#1C1B1F] focus:outline-0"
               ></input>
               <button className="bg-[#112211] py-4 px-5 rounded-sm font-semibold text-sm text-white">
                 Subscribe

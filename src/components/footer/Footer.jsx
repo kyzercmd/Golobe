@@ -5,8 +5,8 @@ export const Footer = () => {
     <>
       <div className="max-w-full mx-auto bg-[#8DD3BB]">
         <div className="xl:max-w-308 max-w-11/12 md:grid-cols-3 grid-cols-2 grid xl:grid-cols-6 gap-6 mx-auto pt-54.5 pb-16">
-          <div className="">
-            <img src={socials}></img>
+          <div className="sm:block flex">
+            <img src={socials} className="w-30"></img>
           </div>
           <div className="flex flex-col gap-4">
             <div>

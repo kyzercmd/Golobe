@@ -4,8 +4,8 @@ export const DestinationCard = ({ data: destination }) => {
       <div className="relative h-105 w-74 overflow-hidden">
         <img
           src={destination.image}
-          alt={destination.name}
-          className="object-cover h-full rounded-xl w-full"
+          alt={`Travel to ${destination.name}`}
+          className="object-cover h-full rounded-xl w-full text-[0px]"
         ></img>
 
         <div className="w-62 h-27.5 inset-x-0 mx-auto bottom-8 absolute flex flex-col gap-4">

@@ -61,25 +61,29 @@ export const TravelDemo = () => {
             <div className="w-full max-w-79.5 max-h-50 overflow-hidden rounded-xl">
               <img
                 src={demo1}
-                className="object-cover object-center w-full h-full"
+                className="object-cover object-center w-full h-full text-[0px]"
+                alt="Travel to Sri Lanka"
               ></img>
             </div>
             <div className="w-full max-w-79.5 max-h-50 overflow-hidden rounded-xl">
               <img
                 src={demo2}
-                className="object-cover object-center w-full h-full"
+                className="object-cover object-center w-full h-full text-[0px]"
+                alt="Travel to Sri Lanka"
               ></img>
             </div>
             <div className="w-full max-w-79.5 max-h-50 overflow-hidden rounded-xl">
               <img
                 src={demo3}
-                className="object-cover object-center w-full h-full"
+                className="object-cover object-center w-full h-full text-[0px]"
+                alt="Travel to Sri Lanka"
               ></img>
             </div>
             <div className="w-full max-w-79.5 max-h-50 overflow-hidden rounded-xl">
               <img
                 src={demo4}
-                className="object-cover object-center w-full h-full"
+                className="object-cover object-center w-full h-full text-[0px]"
+                alt="Travel to Sri Lanka"
               ></img>
             </div>
           </div>

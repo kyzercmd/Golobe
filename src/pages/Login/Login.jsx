@@ -5,6 +5,7 @@ import eyeoff from "../../assets/eye-off.svg";
 import facebook from "../../assets/facebook.svg";
 import google from "../../assets/google.svg";
 import apple from "../../assets/apple.svg";
+import bullets from "../../assets/bullets.svg";
 
 export const Login = () => {
   return (
@@ -90,15 +91,18 @@ export const Login = () => {
             </div>
           </div>
         </div>
-        <div className="hidden lg:block w-1/2 min-h-screen overflow-hidden rounded-[30px] lg:mr-25.5 mr-5">
+        <div className="relative hidden lg:block w-1/2 min-h-screen overflow-hidden rounded-[30px] lg:mr-25.5 mr-5">
           <picture>
             <source srcSet={authwebp} type="image/webp"></source>
             <img
-              className="object-cover h-full"
+              className="object-cover h-full text-[0px]"
               src={authjpg}
-              alt="Resort"
+              alt="Luxury Hotels and Resorts"
             ></img>
           </picture>
+          <div className="absolute inset-x-0 mx-auto bottom-6 flex justify-center">
+            <img src={bullets} className="w-17 h-2.5"></img>
+          </div>
         </div>
       </div>
     </>

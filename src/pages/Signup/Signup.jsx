@@ -5,20 +5,24 @@ import eyeoff from "../../assets/eye-off.svg";
 import facebook from "../../assets/facebook.svg";
 import google from "../../assets/google.svg";
 import apple from "../../assets/apple.svg";
+import bullets from "../../assets/bullets.svg";
 
 export const Signup = () => {
   return (
     <>
       <div className="min-h-screen overflow-hidden max-w-full mx-auto md:p-26 px-10 py-26 flex justify-between bg-white">
-        <div className="h-204 w-121.5 hidden lg:block min-h-screen overflow-hidden rounded-[30px] mr-26.5">
+        <div className="relative h-204 w-121.5 hidden lg:block min-h-screen overflow-hidden rounded-[30px] mr-26.5">
           <picture>
             <source srcSet={authwebp} type="image/webp"></source>
             <img
-              className="object-cover h-full w-full"
+              className="object-cover h-full w-full text-[0px]"
               src={authjpg}
-              alt="Resort"
+              alt="Luxury Hotels and Resorts"
             ></img>
           </picture>
+          <div className="absolute inset-x-0 mx-auto bottom-6 flex justify-center">
+            <img src={bullets} className="w-17 h-2.5"></img>
+          </div>
         </div>
         <div className="lg:w-25/48 w-full mx-auto">
           <img src={logo}></img>
