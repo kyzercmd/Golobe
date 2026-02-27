@@ -1,7 +1,7 @@
 export const DestinationCard = ({ data: destination }) => {
   return (
     <>
-      <div className="relative h-105 w-74 overflow-hidden">
+      <div className="relative w-full min-h-105  overflow-hidden">
         <img
           src={destination.image}
           alt={`Travel to ${destination.name}`}
