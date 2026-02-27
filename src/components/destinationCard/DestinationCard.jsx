@@ -1,14 +1,14 @@
 export const DestinationCard = ({ data: destination }) => {
   return (
     <>
-      <div className="relative w-full min-h-105  overflow-hidden">
+      <div className="relative w-full h-105  overflow-hidden">
         <img
           src={destination.image}
           alt={`Travel to ${destination.name}`}
           className="object-cover h-full rounded-xl w-full text-[0px]"
         ></img>
 
-        <div className="w-62 h-27.5 inset-x-0 mx-auto bottom-8 absolute flex flex-col gap-4">
+        <div className="w-full px-6 h-27.5 inset-x-0 mx-auto bottom-8 absolute flex flex-col gap-4">
           <div className="flex justify-between items-end">
             <div className="flex flex-col">
               <h1 className="text-white font-semibold text-[24px]">
